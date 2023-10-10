@@ -11,6 +11,7 @@
 		4DB20E762AD5A8AA001C56AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB20E752AD5A8AA001C56AD /* ContentView.swift */; };
 		4DB20E782AD5A8AD001C56AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB20E772AD5A8AD001C56AD /* Assets.xcassets */; };
 		4DB20E7B2AD5A8AD001C56AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB20E7A2AD5A8AD001C56AD /* Preview Assets.xcassets */; };
+		4DBAD8082AD5AE3100E7B636 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD8072AD5AE3000E7B636 /* CoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DB20E752AD5A8AA001C56AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DB20E772AD5A8AD001C56AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB20E7A2AD5A8AD001C56AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DBAD8072AD5AE3000E7B636 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4DB20E722AD5A8AA001C56AD /* RemindersClone */ = {
 			isa = PBXGroup;
 			children = (
+				4DBAD8062AD5AE1A00E7B636 /* Providers */,
 				4DB20E732AD5A8AA001C56AD /* RemindersCloneApp.swift */,
 				4DB20E752AD5A8AA001C56AD /* ContentView.swift */,
 				4DB20E772AD5A8AD001C56AD /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				4DB20E7A2AD5A8AD001C56AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DBAD8062AD5AE1A00E7B636 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAD8072AD5AE3000E7B636 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				4DB20E762AD5A8AA001C56AD /* ContentView.swift in Sources */,
 				4DB20E742AD5A8AA001C56AD /* RemindersCloneApp.swift in Sources */,
+				4DBAD8082AD5AE3100E7B636 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
