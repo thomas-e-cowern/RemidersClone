@@ -21,3 +21,11 @@ extension MyList {
     @NSManaged public var color: UIColor
     @NSManaged public var reminders: NSSet?
 }
+
+extension MyList: Identifiable {
+    
+}
+
+extension MyList {
+    
+}
