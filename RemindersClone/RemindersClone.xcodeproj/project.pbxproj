@@ -16,6 +16,7 @@
 		4DBAD80E2AD5B10000E7B636 /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD80D2AD5B10000E7B636 /* MyList+CoreDataClass.swift */; };
 		4DBAD8102AD5B12A00E7B636 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD80F2AD5B12A00E7B636 /* MyList+CoreDataProperties.swift */; };
 		4DBAD8132AD5BCE700E7B636 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */; };
+		4DBAD8152AD5BE4500E7B636 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4DBAD80D2AD5B10000E7B636 /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4DBAD80F2AD5B12A00E7B636 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
+		4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */,
+				4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBAD8152AD5BE4500E7B636 /* ColorPickerView.swift in Sources */,
 				4DB20E762AD5A8AA001C56AD /* ContentView.swift in Sources */,
 				4DBAD80B2AD5AF3200E7B636 /* RemindersModel.xcdatamodeld in Sources */,
 				4DB20E742AD5A8AA001C56AD /* RemindersCloneApp.swift in Sources */,

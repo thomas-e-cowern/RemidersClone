@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddNewListView: View {
     
-    @State var name: String
+    @State private var name: String = ""
     
     var body: some View {
         VStack {
@@ -23,10 +23,11 @@ struct AddNewListView: View {
             .padding(30)
             .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
             
+            Spacer()
         }
     }
 }
 
 #Preview {
-    AddNewListView(name: "Groceries")
+    AddNewListView()
 }
