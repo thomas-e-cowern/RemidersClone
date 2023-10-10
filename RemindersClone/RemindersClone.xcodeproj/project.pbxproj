@@ -67,7 +67,6 @@
 				4DBAD80C2AD5B0E500E7B636 /* Models */,
 				4DBAD8062AD5AE1A00E7B636 /* Providers */,
 				4DB20E732AD5A8AA001C56AD /* RemindersCloneApp.swift */,
-				4DB20E752AD5A8AA001C56AD /* ContentView.swift */,
 				4DB20E772AD5A8AD001C56AD /* Assets.xcassets */,
 				4DB20E792AD5A8AD001C56AD /* Preview Content */,
 				4DBAD8092AD5AF3200E7B636 /* RemindersModel.xcdatamodeld */,
@@ -105,6 +104,7 @@
 			children = (
 				4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */,
 				4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */,
+				4DB20E752AD5A8AA001C56AD /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
