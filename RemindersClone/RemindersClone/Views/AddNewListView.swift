@@ -50,6 +50,7 @@ struct AddNewListView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button("Done") {
                     // Save new list
+                    onSave(name, UIColor(selectedColor))
                 }
                 .disabled(!isFormValid)
             }
@@ -57,14 +58,18 @@ struct AddNewListView: View {
     }
     
     // MARK: - Computed Variables
+    // Check name is not empty
     private var isFormValid: Bool {
         !name.isEmpty
     }
+    
+    // Onsave closure
+    let onSave: (String, UIColor) -> Void
 }
 
 // MARK: Preview
 #Preview {
     NavigationStack {
-        AddNewListView()
+        AddNewListView(onSave: { (_, _) in } )
     }
 }
