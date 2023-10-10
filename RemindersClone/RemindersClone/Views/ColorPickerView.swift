@@ -9,11 +9,14 @@ import SwiftUI
 
 struct ColorPickerView: View {
     
+    // MARK: - Properties
     @Binding var selectedColor: Color
     
     let colors: [Color] = [.red, .green, .blue, .yellow, .orange, .purple, .pink, .brown, .gray, .cyan, .mint]
     
+    // MARK: - Body
     var body: some View {
+        // Color picker
         HStack {
             ForEach(colors, id: \.self) { color in
                 ZStack {
@@ -35,6 +38,7 @@ struct ColorPickerView: View {
     }
 }
 
+// MARK: Preview
 #Preview {
     ColorPickerView(selectedColor: .constant(.red))
 }

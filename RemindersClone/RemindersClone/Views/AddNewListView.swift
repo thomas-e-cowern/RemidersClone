@@ -9,8 +9,11 @@ import SwiftUI
 
 struct AddNewListView: View {
     
+    // MARK: - Properties
     @State private var name: String = ""
+    @State private var selectedColor: Color = .yellow
     
+    // MARK: - Body
     var body: some View {
         VStack {
             VStack {
@@ -23,11 +26,14 @@ struct AddNewListView: View {
             .padding(30)
             .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
             
+            ColorPickerView(selectedColor: $selectedColor)
+            
             Spacer()
         }
     }
 }
 
+// MARK: Preview
 #Preview {
     AddNewListView()
 }
