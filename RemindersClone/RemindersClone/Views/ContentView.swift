@@ -34,6 +34,11 @@ struct ContentView: View {
                 NavigationView {
                     AddNewListView { name, color in
                         // save to core data
+                        do {
+                            try RemindersService.saveMyList(name, color)
+                        } catch {
+                            print("Error trying to save list: \(error.localizedDescription)")
+                        }
                     }
                 }
             })

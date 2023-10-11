@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7DBCBC2AD6E21200B5EE21 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DBCBB2AD6E21200B5EE21 /* UIColorTransformer.swift */; };
 		4DB20E742AD5A8AA001C56AD /* RemindersCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB20E732AD5A8AA001C56AD /* RemindersCloneApp.swift */; };
 		4DB20E762AD5A8AA001C56AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB20E752AD5A8AA001C56AD /* ContentView.swift */; };
 		4DB20E782AD5A8AD001C56AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB20E772AD5A8AD001C56AD /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D7DBCBB2AD6E21200B5EE21 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 		4DB20E702AD5A8AA001C56AD /* RemindersClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB20E732AD5A8AA001C56AD /* RemindersCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCloneApp.swift; sourceTree = "<group>"; };
 		4DB20E752AD5A8AA001C56AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D7DBCBA2AD6E1FD00B5EE21 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DBCBB2AD6E21200B5EE21 /* UIColorTransformer.swift */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
 		4DB20E672AD5A8AA001C56AD = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		4DB20E722AD5A8AA001C56AD /* RemindersClone */ = {
 			isa = PBXGroup;
 			children = (
+				4D7DBCBA2AD6E1FD00B5EE21 /* Transformers */,
 				4DE1C01E2AD6DFDB00E6B8FC /* Services */,
 				4DBAD8112AD5BCCF00E7B636 /* Views */,
 				4DBAD80C2AD5B0E500E7B636 /* Models */,
@@ -193,6 +204,7 @@
 				4DBAD8152AD5BE4500E7B636 /* ColorPickerView.swift in Sources */,
 				4DB20E762AD5A8AA001C56AD /* ContentView.swift in Sources */,
 				4DBAD80B2AD5AF3200E7B636 /* RemindersModel.xcdatamodeld in Sources */,
+				4D7DBCBC2AD6E21200B5EE21 /* UIColorTransformer.swift in Sources */,
 				4DB20E742AD5A8AA001C56AD /* RemindersCloneApp.swift in Sources */,
 				4DBAD8102AD5B12A00E7B636 /* MyList+CoreDataProperties.swift in Sources */,
 				4DBAD8132AD5BCE700E7B636 /* AddNewListView.swift in Sources */,
