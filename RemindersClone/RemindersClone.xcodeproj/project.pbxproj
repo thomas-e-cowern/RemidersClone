@@ -17,6 +17,7 @@
 		4DBAD8102AD5B12A00E7B636 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD80F2AD5B12A00E7B636 /* MyList+CoreDataProperties.swift */; };
 		4DBAD8132AD5BCE700E7B636 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */; };
 		4DBAD8152AD5BE4500E7B636 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */; };
+		4DE1C0202AD6DFF200E6B8FC /* RemindersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1C01F2AD6DFF200E6B8FC /* RemindersService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4DBAD80F2AD5B12A00E7B636 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4DBAD8122AD5BCE700E7B636 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		4DBAD8142AD5BE4500E7B636 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		4DE1C01F2AD6DFF200E6B8FC /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		4DB20E722AD5A8AA001C56AD /* RemindersClone */ = {
 			isa = PBXGroup;
 			children = (
+				4DE1C01E2AD6DFDB00E6B8FC /* Services */,
 				4DBAD8112AD5BCCF00E7B636 /* Views */,
 				4DBAD80C2AD5B0E500E7B636 /* Models */,
 				4DBAD8062AD5AE1A00E7B636 /* Providers */,
@@ -107,6 +110,14 @@
 				4DB20E752AD5A8AA001C56AD /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4DE1C01E2AD6DFDB00E6B8FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1C01F2AD6DFF200E6B8FC /* RemindersService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				4DBAD8102AD5B12A00E7B636 /* MyList+CoreDataProperties.swift in Sources */,
 				4DBAD8132AD5BCE700E7B636 /* AddNewListView.swift in Sources */,
 				4DBAD80E2AD5B10000E7B636 /* MyList+CoreDataClass.swift in Sources */,
+				4DE1C0202AD6DFF200E6B8FC /* RemindersService.swift in Sources */,
 				4DBAD8082AD5AE3100E7B636 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
