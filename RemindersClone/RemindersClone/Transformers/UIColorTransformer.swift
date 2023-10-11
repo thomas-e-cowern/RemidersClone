@@ -28,6 +28,7 @@ class UIColorTransformer: ValueTransformer {
     
     override func reverseTransformedValue(_ value: Any?) -> Any? {
         
+        // Check data is valid
         guard let data = value as? Data else {
             return nil
         }
