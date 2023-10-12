@@ -51,6 +51,7 @@ struct AddNewListView: View {
                 Button("Done") {
                     // Save new list
                     onSave(name, UIColor(selectedColor))
+                    dismiss()
                 }
                 .disabled(!isFormValid)
             }
